@@ -31,12 +31,14 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML",
+  "React",
+  "Tailwind",
+  "SQL",
+  "MongoDB",
+  "Node.js",
+  "Express.js",
+  "Javascript",
 ];
 
 /**
@@ -56,13 +58,14 @@ const About = () => {
           backgroundColor: "white",
           width: "50%",
           padding: "4rem",
-          margin: "3rem auto",
+          margin: "1rem auto",
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2 style={{fontWeight: 'bold'}}>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+        <div className="flex items-center"><h2 style={{fontWeight: 'bold'}}>Skills</h2></div>
         <ul
           style={{
             textAlign: "left",
@@ -77,7 +80,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "0rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

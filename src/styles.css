@@ -47,17 +47,19 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
-  font-weight: 400;
+  font-size: 4.2rem;
+  font-weight: 600;
   line-height: 0.8;
   margin: 0;
+  /* row-gap: 1rem; */
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 440;
   margin: 0;
   padding-top: 1rem;
+  flex-wrap: nowrap;
 }
 
 h3 {
@@ -122,4 +124,8 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+.line-gap {
+  line-height: 1.5; /* สามารถเปลี่ยนค่าตามต้องการ */
 }

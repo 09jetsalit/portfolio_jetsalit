@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
  * Home background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  *
@@ -22,19 +22,25 @@ import PropTypes from "prop-types";
  */
 import image from "../images/woman-with-tablet.jpg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText =
+  "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
-const Home = ({ name, title }) => {
+const Home = ({ name, lastname, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+      <img
+        className="background"
+        src="https://images.unsplash.com/photo-1588620353536-ded12e518f45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "40rem" }}>
+        <h1 style={{ color: "white" }}>{name}</h1>
+        <h1 style={{ color: "white", marginTop: "20px" }}>{lastname}</h1>
+        <h2 style={{ color: "white", marginTop: "20px" }}>{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
+      {/* <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
-      </div>
+      </div> */}
     </section>
   );
 };
