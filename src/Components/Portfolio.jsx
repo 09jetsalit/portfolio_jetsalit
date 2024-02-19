@@ -37,22 +37,22 @@ const projectList = [
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Projects",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "iMove, developed during Generation Thailand Bootcamp, creates a tool for tracking and recording users' physical activities to enhance monitoring exercise performance.",
+    url: "https://imovetracking.vercel.app/",
   },
   {
-    title: "My Resume Site",
+    title: "CV",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "About Me, Load File or Watch CV Click topic",
+    url: "https://drive.google.com/file/d/1SMMTZxeBTed1NDLK95FgWfIP1o24P_Lo/view?usp=drive_link",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GitHub Codespaces",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "GitHub stores code and assessments in Generation Thailand Bootcamp,",
+    url: "https://github.com/09jetsalit",
   },
 ];
 

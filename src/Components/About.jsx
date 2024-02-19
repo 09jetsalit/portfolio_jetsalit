@@ -47,7 +47,11 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  `My name is Jetsalit Jirathitiphuwadon. I graduated with a Bachelor’s
+  Degree in Industrial Engineer. I Started my career as a Industrial
+  Engineer. But now I am looking for new career path I like to finding
+  new experience and developing my skill for work. I always ready
+  to learning a new things.`
 
 const About = () => {
   return (
