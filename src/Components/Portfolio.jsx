@@ -46,7 +46,7 @@ const projectList = [
     title: "CV",
     description:
       "About Me, Load File or Watch CV Click topic",
-    url: "https://drive.google.com/file/d/1SMMTZxeBTed1NDLK95FgWfIP1o24P_Lo/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1yoi2iYCi64tYjGRTjsFNF7SBKMNYtuF0/view?usp=drive_link",
   },
   {
     title: "GitHub Codespaces",
