@@ -30,12 +30,12 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-  {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
+  // {
+  //   title: "10 Things To Know About Azure Static Web Apps 🎉",
+  //   description:
+  //     "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+  //   url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+  // },
   {
     title: "Projects",
     description:
@@ -46,12 +46,12 @@ const projectList = [
     title: "CV",
     description:
       "About Me, Load File or Watch CV Click topic",
-    url: "https://drive.google.com/file/d/1yoi2iYCi64tYjGRTjsFNF7SBKMNYtuF0/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1zro1L7YmYrurN_CxWbhh7SiquTiFUfqr/view?usp=sharing",
   },
   {
     title: "GitHub Codespaces",
     description:
-      "GitHub stores code and assessments in Generation Thailand Bootcamp,",
+      "GitHub stores code and assessments of my mind in Generation Thailand Bootcamp,",
     url: "https://github.com/09jetsalit",
   },
 ];
