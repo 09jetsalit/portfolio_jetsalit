@@ -39,19 +39,23 @@ const projectList = [
   {
     title: "Projects",
     description:
-      "iMove, developed during Generation Thailand Bootcamp, creates a tool for tracking and recording users' physical activities to enhance monitoring exercise performance.",
-    url: "https://imovetracking.vercel.app/",
+      <ul>
+        <li><a href="https://imovetracking.vercel.app/">i-move tracking excercise</a></li>
+        <li><a href="https://todo-list-zeta-blush.vercel.app/">Todo List</a></li>
+        <li><a href="https://t-front.vercel.app/">Members Card</a></li>
+      </ul>,
+      // url: "https://github.com/09jetsalit",
+      },
+  {
+    title: "CV, Resume",
+    description:
+      <a href="https://drive.google.com/file/d/1zro1L7YmYrurN_CxWbhh7SiquTiFUfqr/view?usp=sharing">About Me, Load File or Watch CV, Resume Click Here</a>,
+      url: "https://drive.google.com/file/d/1zro1L7YmYrurN_CxWbhh7SiquTiFUfqr/view?usp=sharing",
   },
   {
-    title: "CV",
+    title: "My GitHub Codespaces",
     description:
-      "About Me, Load File or Watch CV Click topic",
-    url: "https://drive.google.com/file/d/1zro1L7YmYrurN_CxWbhh7SiquTiFUfqr/view?usp=sharing",
-  },
-  {
-    title: "GitHub Codespaces",
-    description:
-      "GitHub stores code and assessments of my mind in Generation Thailand Bootcamp,",
+    <a href="https://github.com/09jetsalit">GitHub stores code and assessments of my mind in Generation Thailand Bootcamp</a>,
     url: "https://github.com/09jetsalit",
   },
 ];
