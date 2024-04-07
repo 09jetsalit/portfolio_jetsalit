@@ -115,7 +115,7 @@ const Footer = (props) => {
         )} */}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name} {lastname}
+        Created by {name} {lastname} , Chiang khong , Chiang rai , 087-994-5625
       </p>
     </div>
   );
